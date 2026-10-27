@@ -4,3 +4,4 @@ matplotlib==3.9.4
 notebook==7.2.3
 #ipykernel==6.29.5
 datasets
+scikit-learn
