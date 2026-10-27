@@ -1,44 +1,40 @@
 REPORTE DEL DATAFRAME
 ============================================================
-Filas: 48620
-Columnas: 12
+Filas: 10000
+Columnas: 10
 Duplicados: 0
 
 Columnas y tipos:
-- pizza_id: float64
-- order_id: float64
-- pizza_name_id: object
-- quantity: float64
-- order_date: object
-- order_time: object
-- unit_price: float64
-- total_price: float64
-- pizza_size: object
-- pizza_category: object
-- pizza_ingredients: object
-- pizza_name: object
+- address: object
+- city: object
+- country: object
+- keys: object
+- latitude: float64
+- longitude: float64
+- name: object
+- postalCode: object
+- province: object
+- websites: object
 
 Valores nulos por columna:
-- pizza_id: 0
-- order_id: 0
-- pizza_name_id: 0
-- quantity: 0
-- order_date: 0
-- order_time: 0
-- unit_price: 0
-- total_price: 0
-- pizza_size: 0
-- pizza_category: 0
-- pizza_ingredients: 0
-- pizza_name: 0
+- address: 0
+- city: 0
+- country: 0
+- keys: 0
+- latitude: 0
+- longitude: 0
+- name: 0
+- postalCode: 0
+- province: 0
+- websites: 465
 
 Estadísticas numéricas:
-        pizza_id  order_id   quantity  unit_price  total_price
-count  48620.000  48620.00  48620.000   48620.000    48620.000
-mean   24310.500  10701.48      1.020      16.494       16.821
-std    14035.529   6180.12      0.143       3.622        4.437
-min        1.000      1.00      1.000       9.750        9.750
-25%    12155.750   5337.00      1.000      12.750       12.750
-50%    24310.500  10682.50      1.000      16.500       16.500
-75%    36465.250  16100.00      1.000      20.250       20.500
-max    48620.000  21350.00      4.000      35.950       83.000
+        latitude  longitude
+count  10000.000  10000.000
+mean      37.552    -91.056
+std        5.050     18.556
+min       -6.244   -159.379
+25%       34.029    -97.413
+50%       38.298    -87.661
+75%       41.117    -81.458
+max       64.840    123.012
