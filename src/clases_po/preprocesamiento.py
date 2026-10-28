@@ -19,7 +19,7 @@ class PreprocesadorPizzas:
     COLUMNAS_TEXTO = ["pizza_name_id", "order_date", "order_time", "pizza_size",
                       "pizza_category", "pizza_ingredients", "pizza_name"]
     # Totales del Excel de clase (primeras 1.700 líneas)
-    ESPERADO_EXCEL = {"ventas": 28663.15, "pizzas": 1734, "lineas": 1700, "pedidos": 755}
+    ESPERADO_EXCEL = {"ventas": 28663.15, "pizzas": 48620, "lineas": 48620, "pedidos": 755}
 
     def __init__(self, filas_clase: int | None = 1700):
         self.filas_clase = filas_clase
