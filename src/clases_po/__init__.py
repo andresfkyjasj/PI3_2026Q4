@@ -7,6 +7,7 @@ from .analisis import AnalisisPizzeria,AnalisisBase
 from .graficos import GraficosPizzeria,GraficosBase
 from .enriquecimiento import EnriquecedorPizzeria
 from .llm_nvidia import LLMNvidia
+from .dashboard_streamlit import DashboardStreamlit
 
 __all__ = ["HFDatasetLoader",
             "Reportes",
@@ -18,4 +19,5 @@ __all__ = ["HFDatasetLoader",
             "GraficosPizzeria",
             "GraficosBase",
             "EnriquecedorPizzeria",
-            "LLMNvidia"]
+            "LLMNvidia",
+            "DashboardStreamlit"]
